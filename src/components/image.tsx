@@ -15,9 +15,6 @@ const CustomImage: FC<Props> = ({ product, fill }) => {
 		<Image
 			src={product.image}
 			alt={product.title}
-			fill
-			width={400}
-			height={1000}
 			className={`object-contain duration-700 ease-in-out group-hover:opacity-75 ${
 				isLoading ? "scale-110 blur-2xl grayscale" : " scale-100 blur-0 grayscale-0"
 			}`}
