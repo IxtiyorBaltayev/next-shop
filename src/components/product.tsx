@@ -9,9 +9,9 @@ const Product: FC<{ product: ProductType }> = ({ product }) => {
 	return (
 		<Link
 			href={`product/${product.id}`}
-			className="h-96 flex flex-col p-6 rounded-lg shadow cursor-pointer group hover:scale-105 transition-transform ease-out duration-200">
+			className="h-96 flex flex-col p-6 shadow rounded-lg cursor-pointer group hover:scale-105 transition-transform ease-out duration-200">
 			<div className="relative max-h-60 flex-1">
-				<CustomImage product={product} />
+				<CustomImage product={product} fill />
 			</div>
 			<h3 className="tracking-widest mt-5 text-indigo-500 text-xs font-medium title-font">{product.category}</h3>
 			<div className="font-semibold flex items-center justify-between mt-4 mb-1">
