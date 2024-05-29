@@ -23,12 +23,11 @@ const Navbar = () => {
 						All products
 					</Link>
 				</nav>
-				<button className="inline-flex items-center bg-transparent text-black border-black border py-1 px-3 me-2 focus:outline-none hover:bg-indigo-500 hover:text-white hover:border-transparent rounded text-base mt-4 md:mt-0 transition duration-200">
-					Log in
-				</button>
-				<button className="inline-flex items-center bg-indigo-500 text-white border-transparent border py-1 px-3 focus:outline-none hover:bg-transparent hover:text-black hover:border-black rounded text-base mt-4 md:mt-0 transition duration-200">
-					Sign up
-				</button>
+				<Link href={"/shopping-cart"}>
+					<button className="inline-flex items-center bg-indigo-500 text-white border-transparent border py-1 px-3 focus:outline-none hover:bg-transparent hover:text-black hover:border-black rounded text-base mt-4 md:mt-0 transition duration-200">
+						My bag
+					</button>
+				</Link>
 			</div>
 		</header>
 	);
