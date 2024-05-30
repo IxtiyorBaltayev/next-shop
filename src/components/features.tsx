@@ -15,9 +15,9 @@ const Features = () => {
 							<svg
 								fill="none"
 								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="2"
 								className="w-6 h-6"
 								viewBox="0 0 24 24">
 								<path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -34,9 +34,9 @@ const Features = () => {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-4 h-4 ml-2"
 									viewBox="0 0 24 24">
 									<path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -49,9 +49,9 @@ const Features = () => {
 							<svg
 								fill="none"
 								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="2"
 								className="w-6 h-6"
 								viewBox="0 0 24 24">
 								<circle cx="6" cy="6" r="3"></circle>
@@ -70,9 +70,9 @@ const Features = () => {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-4 h-4 ml-2"
 									viewBox="0 0 24 24">
 									<path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -85,9 +85,9 @@ const Features = () => {
 							<svg
 								fill="none"
 								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="2"
 								className="w-6 h-6"
 								viewBox="0 0 24 24">
 								<path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -105,9 +105,9 @@ const Features = () => {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-4 h-4 ml-2"
 									viewBox="0 0 24 24">
 									<path d="M5 12h14M12 5l7 7-7 7"></path>
