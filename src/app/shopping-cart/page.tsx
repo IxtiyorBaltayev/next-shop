@@ -55,7 +55,7 @@ const ShoppingCart = () => {
 			return acc + item.price * item.quantity;
 		}, 0);
 		setTotal(total);
-	}, []);
+	}, [products]);
 
 	return (
 		<>
@@ -190,7 +190,7 @@ const ShoppingCart = () => {
 						</div>
 						<h1 className="mt-5 text-[36px] font-bold text-slate-800 lg:text-[50px]">Shopping cart is empty</h1>
 						<p className="text-slate-600 mt-5 lg:text-lg">
-							The page you are looking for doesn't exist or <br />
+							The page you are looking for does not exist or <br />
 							has been removed.
 						</p>
 						<Link href={"/products"}>
