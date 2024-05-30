@@ -22,6 +22,9 @@ const Navbar = () => {
 					<Link href={"/products"} className="mr-10 font-medium hover:text-indigo-500 hover:cursor-pointer">
 						All products
 					</Link>
+					<Link href={"/contacts"} className="mr-10 font-medium hover:text-indigo-500 hover:cursor-pointer">
+						Contacts
+					</Link>
 				</nav>
 				<Link href={"/shopping-cart"}>
 					<button className="inline-flex items-center bg-indigo-500 text-white border-transparent border py-1 px-3 focus:outline-none hover:bg-transparent hover:text-black hover:border-black rounded text-base mt-4 md:mt-0 transition duration-200">
