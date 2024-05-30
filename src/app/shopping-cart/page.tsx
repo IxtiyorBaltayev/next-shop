@@ -8,12 +8,14 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const ShoppingCart = () => {
-	const [products, setProducts] = useState<ProductType[]>(JSON.parse(localStorage.getItem("carts") as string) || []);
+	const [products, setProducts] = useState<ProductType[]>(
+		JSON.parse(window.localStorage.getItem("carts") as string) || []
+	);
 	const [total, setTotal] = useState<number>(0);
 
 	const removeProduct = (id: number) => {
 		const updatedCart = products.filter((product) => product.id !== id);
-		localStorage.setItem("carts", JSON.stringify(updatedCart));
+		window.localStorage.setItem("carts", JSON.stringify(updatedCart));
 		setProducts(updatedCart);
 	};
 
@@ -27,7 +29,7 @@ const ShoppingCart = () => {
 			}
 			return product;
 		});
-		localStorage.setItem("carts", JSON.stringify(updatedCart));
+		window.localStorage.setItem("carts", JSON.stringify(updatedCart));
 		setProducts(updatedCart);
 	};
 
@@ -45,7 +47,7 @@ const ShoppingCart = () => {
 				}
 				return product;
 			});
-			localStorage.setItem("carts", JSON.stringify(updatedCart));
+			window.localStorage.setItem("carts", JSON.stringify(updatedCart));
 			setProducts(updatedCart);
 		}
 	};
